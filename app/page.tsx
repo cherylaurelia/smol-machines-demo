@@ -1,7 +1,7 @@
 import { imageRuns, unchangedRuns } from "./runs";
 
 const patchUrl =
-  "https://github.com/smol-machines/smolvm/compare/main...cherylaurelia:smolvm:fix/image-exec-output-cap";
+  "https://github.com/smol-machines/smolvm/pull/2050";
 
 const repoUrl = "https://github.com/cherylaurelia/smol-machines-demo";
 const pr357 = "https://github.com/smol-machines/smolvm/pull/357";
@@ -46,7 +46,7 @@ export default function Home() {
       </p>
       <div className="mt-6 flex flex-wrap justify-center gap-3 text-sm">
         <a className="rounded border border-ink bg-ink px-4 py-2 text-white hover:bg-[#333333]" href={patchUrl}>
-          See the patch
+          See the PR
         </a>
         <a className="rounded border border-line px-4 py-2 hover:bg-code" href={repoUrl}>
           Demo repo
